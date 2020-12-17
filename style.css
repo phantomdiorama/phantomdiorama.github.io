@@ -1,0 +1,56 @@
+main {
+  font-family: monospace, monospace;
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+@media only screen and (max-device-width: 736px) {
+  main {
+    padding: 0rem;
+  }
+}
+
+::selection {
+  background: #d3869b;
+}
+
+body {
+    background: #ffffff;
+    color:      #3c3836;
+}
+
+pre {
+    padding: 1em;
+    border: 0;
+}
+
+a, a:active, a:visited {
+    color: #FF0086;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: .1rem;
+}
+
+blockquote {
+    border-left: 3px solid #ad00a1;
+    margin: 0.5em 10px;
+    padding: 0.5em 10px;
+    /* color: red; */
+    /* background-color: #eeeeee */
+}
+
+footer {
+  align: center;
+  margin-top: 3rem;
+}
+
+header {
+  align: center;
+  margin-top: 3rem;
+}
+
+span {
+  align: right;
+}
