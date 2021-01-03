@@ -1,5 +1,4 @@
 main {
-  /* font-family: monospace, monospace; */
   font-family: helvetica, arial, sans-serif;
   max-width: 38rem;
   padding: 2rem;
@@ -12,10 +11,6 @@ main {
   }
 }
 
-::selection {
-  background: #d3869b;
-}
-
 body {
     background: #ffffff;
     color:      #333333;
@@ -24,6 +19,9 @@ body {
 pre {
     padding: 1em;
     border: 0;
+    background-color: #f8f8f8;
+    color: #3777E6;
+    font-size: 1.0rem;
 }
 
 a, a:active, a:visited {
@@ -36,8 +34,9 @@ h1, h2, h3, h4, h5 {
 
 blockquote {
     border-left: 3px solid #ad00a1;
-    margin: 0.5em 10px;
+    margin: 0.5em 60px;
     padding: 0.5em 10px;
+    font-style: italic;
 }
 
 footer {

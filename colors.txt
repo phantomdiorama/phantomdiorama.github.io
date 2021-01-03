@@ -1,0 +1,10 @@
+pink            FF0086
+orange          FD8900
+sick            ABA800
+green           00C918
+teal            1FAAAA
+blue            3777E6
+purple          AD00A1
+dark orange     CC6633
+grey            e0e0e0
+light grey      f8f8f8
