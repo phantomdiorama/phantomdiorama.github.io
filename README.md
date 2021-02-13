@@ -1,1 +1,0 @@
-Personal website with ideas from [tufte-css](https://github.com/edwardtufte/tufte-css) and [gruvbox-css](https://github.com/Xe/gruvbox-css) and [spcss](https://github.com/susam/spcss)
