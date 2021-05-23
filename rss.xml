@@ -60,5 +60,19 @@
 &lt;p&gt;Hands: Despondent &lt;&#x2F;p&gt;
 </description>
         </item>
+        <item>
+            <title>About</title>
+            <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+            <link>https://www.michaelbuckleywriter.com/about/</link>
+            <guid>https://www.michaelbuckleywriter.com/about/</guid>
+            <description>&lt;p&gt;Hi I&#x27;m Michael. I&#x27;m a writer and typo enthusiast from New South Wales, Australia.&lt;&#x2F;p&gt;
+&lt;p&gt;Despite bad hands, I write about disability, mental health and politics. My words have appeared in &lt;em&gt;The Guardian&lt;&#x2F;em&gt;. My short fiction has appeared in the &lt;em&gt;Newcastle Short Story Award&lt;&#x2F;em&gt;. I&#x27;m currently working on my first novel.&lt;&#x2F;p&gt;
+&lt;p&gt;Email: &lt;a href=&quot;mailto:thatmichaelbuckley@gmail.com&quot;&gt;thatmichaelbuckley@gmail.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Twitter: &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;phantomdiorama&quot;&gt;@phantomdiorama&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;about-the-site&quot;&gt;About the site&lt;&#x2F;h3&gt;
+&lt;p&gt;This site is built with &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;zola&lt;&#x2F;a&gt; and hosted by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&quot;&gt;github&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Posts are written with &lt;a href=&quot;https:&#x2F;&#x2F;1writerapp.com&#x2F;&quot;&gt;1writer&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;notepad-plus-plus.org&#x2F;&quot;&gt;Notepad++&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+        </item>
     </channel>
 </rss>
