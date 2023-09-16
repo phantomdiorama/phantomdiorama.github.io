@@ -14,6 +14,15 @@ h1, h2, h3, h4, h5, h6 {
 a:link {
   color: #00e;
 }
+a:visited {
+  color: #518;
+}
+a:focus, a:hover {
+  color: #03f;
+}
+a:active {
+  color: #e00;
+}
 img {
   max-width: 100%;
 }
@@ -24,37 +33,16 @@ figure {
 figcaption {
   font-size: small;
 }
-pre, code, samp, kbd {
-  font-family: monospace, monospace;
-}
-pre, code, kbd {
-  color: #050;
-}
-samp {
-  color: #730;
-}
-pre, blockquote {
+pre, code {
   background: #eee;
-  padding: 0.5em;
+  font-family: monospace, monospace;
 }
 pre {
   overflow: auto;
 }
 blockquote {
-  border-left: medium solid #ccc;
+  background: white;
+  padding: 0.5em;
+  border-left: thick solid purple;
   margin: 1em 0;
-}
-blockquote :first-child {
-  margin-top: 0;
-}
-blockquote :last-child {
-  margin-bottom: 0;
-}
-table {
-  border-collapse: collapse;
-}
-th, td {
-  border: thin solid #999;
-  padding: 0.3em 0.4em;
-  text-align: left;
 }
