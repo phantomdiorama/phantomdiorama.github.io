@@ -1,6 +1,6 @@
 body {
   color: #000;
-  font-family: helvetica, arial, sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1.125em;
   line-height: 1.5;
   margin: 0 auto;
@@ -35,7 +35,7 @@ figcaption {
 }
 pre, code {
   background: #eee;
-  font-family: monospace, monospace;
+  font-family: ui-monospace, Consolas, monospace;
 }
 pre {
   overflow: auto;
