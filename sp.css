@@ -1,6 +1,6 @@
 body {
   color: #000;
-  font-family: system-ui, sans-serif;
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   font-size: 1.125em;
   line-height: 1.5;
   margin: 0 auto;
@@ -34,8 +34,7 @@ figcaption {
   font-size: small;
 }
 pre, code {
-  background: #eee;
-  font-family: ui-monospace, Consolas, monospace;
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 pre {
   overflow: auto;

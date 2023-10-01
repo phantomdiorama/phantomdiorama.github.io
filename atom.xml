@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Michael Buckley Writer</title>
+  <link href="https://www.michaelbuckleywriter.com/"/>
+  <updated>2023-10-01T13:00:02Z</updated>
+  <author>
+    <name>Michael Buckley</name>
+  </author>
+  <id>https://www.michaelbuckleywriter.com/</id>
+
+  <entry>
+    <title>Just Now</title>
+    <link href="https://www.michaelbuckleywriter.com/2023-10-01.html"/>
+    <id>https://www.michaelbuckleywriter.com/2023-10-01.html</id>
+    <updated>2023-10-01T13:00:02Z</updated>
+    <summary>What I did Just Now</summary>
+  </entry>
+
+</feed>
