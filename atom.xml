@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Michael Buckley Writer</title>
-  <link href="https://www.michaelbuckleywriter.com/"/>
-  <updated>2023-10-01T13:00:02Z</updated>
-  <author>
-    <name>Michael Buckley</name>
-  </author>
-  <id>https://www.michaelbuckleywriter.com/</id>
-
-  <entry>
-    <title>Just Now</title>
-    <link href="https://www.michaelbuckleywriter.com/2023-10-01.html"/>
-    <id>https://www.michaelbuckleywriter.com/2023-10-01.html</id>
+    <title>Michael Buckley Writer</title>
+    <link href="https://www.michaelbuckleywriter.com/"/>
     <updated>2023-10-01T13:00:02Z</updated>
-    <summary>What I did Just Now</summary>
-  </entry>
+    <author>
+        <name>Michael Buckley</name>
+    </author>
+    <id>https://www.michaelbuckleywriter.com/</id>
+
+    <entry>
+        <title></title>
+        <link href="https://www.michaelbuckleywriter.com/2023-11-12.html"/>
+        <id>656ed164-1eef-4516-8bf7-acb1a18660f4</id>
+        <updated>2023-11-12T10:00:02Z</updated>
+        <summary>My default apps</summary>
+    </entry>
+
+    <entry>
+        <title>Just Now</title>
+        <link href="https://www.michaelbuckleywriter.com/2023-10-01.html"/>
+        <id>954e3939-5a1a-427f-aec9-e32ea575f6e4</id>
+        <updated>2023-10-01T13:00:02Z</updated>
+        <summary>What I did Just Now</summary>
+    </entry>
 
 </feed>
