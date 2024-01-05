@@ -9,7 +9,15 @@
     <id>https://www.michaelbuckleywriter.com/</id>
 
     <entry>
-        <title></title>
+        <title>Spinning Wheel</title>
+        <link href="https://www.michaelbuckleywriter.com/2024-01-05.html"/>
+        <id>UNIQUEID</id>
+        <updated>2024-01-05T13:00:02Z</updated>
+        <summary>Happy New Year</summary>
+    </entry>
+
+    <entry>
+        <title>Defaut Apps</title>
         <link href="https://www.michaelbuckleywriter.com/2023-11-12.html"/>
         <id>656ed164-1eef-4516-8bf7-acb1a18660f4</id>
         <updated>2023-11-12T10:00:02Z</updated>

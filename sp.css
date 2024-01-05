@@ -12,16 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 a:link {
-  color: #00e;
+  color: #AF41AB;
 }
-a:visited {
-  color: #518;
-}
-a:focus, a:hover {
-  color: #03f;
-}
-a:active {
-  color: #e00;
+a:visited, a:focus, a:active, a:hover {
+  color: #FF812D;
 }
 img {
   max-width: 100%;
