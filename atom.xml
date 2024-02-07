@@ -9,6 +9,14 @@
     <id>https://www.michaelbuckleywriter.com/</id>
 
     <entry>
+        <title>Just Now</title>
+        <link href="https://www.michaelbuckleywriter.com/2024-02-07.html"/>
+        <id>e97117ff-a307-46a2-a31f-f4de4bb3b9a1</id>
+        <updated>2024-02-07T13:00:02Z</updated>
+        <summary>What I did Just Now</summary>
+    </entry>
+
+    <entry>
         <title>Spinning Wheel</title>
         <link href="https://www.michaelbuckleywriter.com/2024-01-05.html"/>
         <id>32ee0b3f-3817-44bd-8cab-cb7c404d4e72</id>
@@ -17,7 +25,7 @@
     </entry>
 
     <entry>
-        <title>Defaut Apps</title>
+        <title>Default Apps</title>
         <link href="https://www.michaelbuckleywriter.com/2023-11-12.html"/>
         <id>656ed164-1eef-4516-8bf7-acb1a18660f4</id>
         <updated>2023-11-12T10:00:02Z</updated>
