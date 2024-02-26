@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Michael Buckley | How I Do This</title>
+  <link rel="stylesheet" href="sp.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p><strong>michael buckley</strong><br />
+<a href="index.html">home</a> - <a href="about.html">about</a> - <a
+href="atom.xml">feed</a>
+<header id="title-block-header">
+</header>
+<h1 id="how-i-do-this">how i do this</h1>
+<p>2024–02-26</p>
+<p>My blog setup is super minimal. It’s just a single script that wraps
+around Pandoc. Ok there’s a second script that does some pre checks. But
+that’s it. I call this setup <a
+href="https://github.com/phantomdiorama/codnap">codnap</a>. That’s
+Pandoc backwards. The github repo needed a name, ok?</p>
+<p>Obviously, it’s not as automated as actual Static Site Generators
+like Jekyll or Hugo, but it is simpler, more flexible and allows me to
+keep all my blogging bits and pieces (markdown, images, css, everything)
+in a single folder instead of a thicket of sub-directories. And building
+is just a matter of running two scripts on that folder…</p>
+<h3 id="check">check</h3>
+<p>This does pre-build checks for outstanding todos (w/ <a
+href="https://github.com/BurntSushi/ripgrep">ripgrep</a>), outstanding
+typos (w/ <a href="https://github.com/crate-ci/typos">typos</a>) and
+markdown errors (w/ <a
+href="https://github.com/igorshubovych/markdownlint-cli">markdownlint</a>).
+On its face this sounds less <em>minimal</em> than using the eyes
+attached to that face, but remember behind that face is a skull of
+laziness. It’s fine.</p>
+<p>It looks like this:</p>
+<figure>
+<img src="images/codnap1.png" alt="Checking…" />
+<figcaption aria-hidden="true">Checking…</figcaption>
+</figure>
+<h3 id="build">build</h3>
+<p>This uses Pandoc to make html from markdown and moves the resulting
+files into <strong>/public</strong>. Images get moved to
+<strong>/public/images</strong>.</p>
+<p>It looks like this:</p>
+<figure>
+<img src="images/codnap2.png" alt="Building…" />
+<figcaption aria-hidden="true">Building…</figcaption>
+</figure>
+<h2 id="push">push</h2>
+<p>After manually checking the links etc with Firefox, the built site
+then gets pushed to github pages.</p>
+<figure>
+<img src="images/fish.png" alt="A cod, napping" />
+<figcaption aria-hidden="true">A cod, napping</figcaption>
+</figure>
+<p>PS Apologies for the <em>nothing to say, post your blog setup!</em>
+style post. Still busy with weddings and a mysterious lurgy. Not to
+mention Frances, the girl living in my computer, becoming fed up with
+the lack of attention.</p>
+<center>
+⁂
+</center>
+<h3 id="status">status</h3>
+<p>Cat: Air-conditioned</p>
+<p>Writing: Subdued</p>
+<p>Hands: Toilworn</p>
+</body>
+</html>
