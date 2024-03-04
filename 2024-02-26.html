@@ -28,8 +28,8 @@ Pandoc backwards. The github repo needed a name, ok?</p>
 like Jekyll or Hugo, but it is simpler, more flexible and allows me to
 keep all my blogging bits and pieces—markdown, images, css,
 everything—in a single folder instead of a thicket of sub-directories.
-This folder is called <strong>blog</strong> and is kept in Dropbox for
-easy backup and sync. Building the site is just a matter of running two
+This folder is called <code>blog</code> and is kept in Dropbox for easy
+backup and sync. Building the site is just a matter of running two
 scripts on that folder…</p>
 <h2 id="check">check</h2>
 <p>This does pre-build checks for outstanding to dos (w/ <a
@@ -46,21 +46,21 @@ is a skull of laziness. It’s fine.</p>
 <figcaption aria-hidden="true">Checking…</figcaption>
 </figure>
 <h2 id="build">build</h2>
-<p>This creates a folder at <strong>blog* if it doesn’t exist and copies
-all css and xml into it. Images—which I’ve pre-compressed—get copied
-into </strong>blog*.</p>
+<p>This creates a folder at <code>blog/public</code> if it doesn’t exist
+and copies all css and xml into it. Images—which I’ve pre-compressed—get
+copied into <code>blog/public/images</code>.</p>
 <p>Then the script iterates over the list of markdown files, uses Pandoc
 to convert them to html, and then outputs the resulting files into
-**blog* too.</p>
+<code>blog/public</code> too.</p>
 <p>It looks like this:</p>
 <figure>
 <img src="images/codnap2.png" alt="Building…" />
 <figcaption aria-hidden="true">Building…</figcaption>
 </figure>
 <h2 id="push">push</h2>
-<p>After manually checking the links etc with Firefox, the contents
-**blog* gets copied into a git repo which then gets pushed to the remote
-at <a
+<p>After manually checking the links etc with Firefox, the contents of
+<code>blog/public</code> gets copied into a git repo which then gets
+pushed to the remote at <a
 href="https://github.com/phantomdiorama/phantomdiorama.github.io">my
 github</a> which does the actual web hosting (for more how this part
 works see <a href="https://pages.github.com/">github pages</a>).</p>
