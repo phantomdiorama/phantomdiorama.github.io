@@ -1,0 +1,41 @@
+body {
+  color: #000;
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 0 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.25em 0 0.5em 0;
+  line-height: 1.2;
+}
+a:link {
+  color: #AF41AB;
+}
+a:visited, a:focus, a:active, a:hover {
+  color: #FF812D;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+figcaption {
+  font-size: small;
+}
+pre, code {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+pre {
+  overflow: auto;
+}
+blockquote {
+  background: white;
+  padding: 0.5em;
+  border-left: thick solid purple;
+  margin: 1em 0;
+}
