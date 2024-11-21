@@ -10,9 +10,9 @@
 <meta name="title" content="Jones" />
 <meta name="description" content="tk
 Bonus: Un-Pocket
-Pocket export to a plain text list (I ran these in git-bash):
+Also last time, I wanted to convert the list of links exported from Pocket into full text copies. That turned out to be pretty easy&ndash;I just needed htmlq. Then to get an unformatted list of links, I ran this in git-bash on Windows:
 cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt
-Then I ran that list through Jones:
+And ran the list through Jones:
 while IFS=&#39;&#39; read -r line; do
     jones &#34;$line&#34;
 done &lt; pocket.txt
@@ -24,8 +24,8 @@ done &lt; pocket.txt
   <meta property="og:site_name" content="Michael Buckley">
   <meta property="og:title" content="Jones">
   <meta property="og:description" content="tk
-Bonus: Un-Pocket Pocket export to a plain text list (I ran these in git-bash):
-cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt Then I ran that list through Jones:
+Bonus: Un-Pocket Also last time, I wanted to convert the list of links exported from Pocket into full text copies. That turned out to be pretty easy–I just needed htmlq. Then to get an unformatted list of links, I ran this in git-bash on Windows:
+cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt And ran the list through Jones:
 while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt ">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -39,8 +39,8 @@ while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Jones">
   <meta name="twitter:description" content="tk
-Bonus: Un-Pocket Pocket export to a plain text list (I ran these in git-bash):
-cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt Then I ran that list through Jones:
+Bonus: Un-Pocket Also last time, I wanted to convert the list of links exported from Pocket into full text copies. That turned out to be pretty easy–I just needed htmlq. Then to get an unformatted list of links, I ran this in git-bash on Windows:
+cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt And ran the list through Jones:
 while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt ">
 
 
@@ -48,12 +48,12 @@ while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt
 
   <meta itemprop="name" content="Jones">
   <meta itemprop="description" content="tk
-Bonus: Un-Pocket Pocket export to a plain text list (I ran these in git-bash):
-cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt Then I ran that list through Jones:
+Bonus: Un-Pocket Also last time, I wanted to convert the list of links exported from Pocket into full text copies. That turned out to be pretty easy–I just needed htmlq. Then to get an unformatted list of links, I ran this in git-bash on Windows:
+cat export.html | htmlq --attribute href a | sed &#39;/^http/!d&#39; &gt; pocket.txt And ran the list through Jones:
 while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt ">
   <meta itemprop="datePublished" content="2024-11-30T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-11-30T00:00:00+00:00">
-  <meta itemprop="wordCount" content="45">
+  <meta itemprop="wordCount" content="75">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -105,6 +105,13 @@ while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt
 
   table {
     width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: thin solid #999;
+    padding: 0.3em 0.4em;
+    text-align: left;
   }
 
   img {
@@ -217,9 +224,9 @@ while IFS=&#39;&#39; read -r line; do jones &#34;$line&#34; done &lt; pocket.txt
 <content>
   <p>tk</p>
 <h2 id="bonus-un-pocket">Bonus: Un-Pocket</h2>
-<p>Pocket export to a plain text list (I ran these in git-bash):</p>
+<p>Also last time, I wanted to convert the list of links exported from <em>Pocket</em> into full text copies. That turned out to be pretty easy&ndash;I just needed <a href="https://github.com/mgdm/htmlq">htmlq</a>. Then to get an unformatted list of links, I ran this in git-bash on Windows:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat export.html | htmlq --attribute href a | sed <span style="color:#f1fa8c">&#39;/^http/!d&#39;</span> &gt; pocket.txt
-</span></span></code></pre></div><p>Then I ran that list through Jones:</p>
+</span></span></code></pre></div><p>And ran the list through Jones:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff79c6">while</span> <span style="color:#8be9fd;font-style:italic">IFS</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span> <span style="color:#8be9fd;font-style:italic">read</span> -r line; <span style="color:#ff79c6">do</span>
 </span></span><span style="display:flex;"><span>    jones <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$line</span><span style="color:#f1fa8c">&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#ff79c6">done</span> &lt; pocket.txt
