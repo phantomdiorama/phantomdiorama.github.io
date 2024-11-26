@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Michael Buckley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.michaelbuckleywriter.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pythonesque</title>
+      <link>https://www.michaelbuckleywriter.com/blog/2024-11-26-python/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.michaelbuckleywriter.com/blog/2024-11-26-python/</guid>
+      <description>&lt;p&gt;I know a little about coding. Enough to sometimes brute force a small&#xA;quality-of-life tweak into someone else’s code, or write a janky-as-heck&#xA;shell script. But not enough to build anything substantial from the ground&#xA;up.&lt;/p&gt;&#xA;&lt;p&gt;So to fill this knowledge hole, I’ve been &lt;a href=&#34;https://www.michaelbuckleywriter.com/reading/&#34;&gt;reading&lt;/a&gt; a few introductions to&#xA;&lt;a href=&#34;https://www.python.org&#34;&gt;Python&lt;/a&gt;. And while learning in the abstract is a start, I didn’t have a&#xA;project.&lt;/p&gt;&#xA;&lt;p&gt;Until my research workflow fell over and I had to spend a couple&#xA;afternoons in vim writing a replacement: a simple wrapper around Pandoc to&#xA;make archiving webpages easier. I called it Jones. Because he was into&#xA;archeology. And research is a &lt;em&gt;kind&lt;/em&gt; of archeology. Anyway.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Archaeology</title>
       <link>https://www.michaelbuckleywriter.com/blog/2024-10-30-archeology/</link>
